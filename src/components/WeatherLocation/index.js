@@ -37,7 +37,6 @@ class WeatherLocation extends Component {
       });
     });
   }
-
   render(){
     console.log("render");
     const{city,data} = this.state;
